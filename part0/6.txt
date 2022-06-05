@@ -1,0 +1,7 @@
+form.onsubmit function pushes the new note to existing notes array
+and redrawNotes() is called, so the new note is updated in the document
+sendToServer(note) is called so that our backend is updated with the new note
+
+browser -> server:  HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+request payload is a json containing the note content and the datetime
+

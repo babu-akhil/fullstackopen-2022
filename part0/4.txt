@@ -1,0 +1,5 @@
+browser -> server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+server -> browser: redirect to https://studies.cs.helsinki.fi/exampleapp/notes
+
+followed by all the events for /notes page
+
